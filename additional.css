@@ -1,0 +1,26 @@
+/* following css borrowed from [ http://blog.sparanoid.com/2005/11/29/almodovar-plus/ ] */
+
+.commentlist li.ping-comment {
+	/*list-style: decimal outside;*/
+	color: #777;
+	background-color: #FFFFFF;
+	border-top: 1px solid #c2cfdf2;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	list-style-type: circle;
+	list-style-position: outside;
+	}
+
+.commentlist li.author-comment {
+	/*list-style: decimal outside;*/
+	background-color: #f0f8ff;
+	border-top: 1px solid #c2cfdf2;
+	list-style: none;
+	}
+
+.commentlist li.user-comment {
+	/*list-style: decimal outside;*/
+	background-color: #f6f6f6;
+	border-top: 1px solid #c2cfdf;
+	list-style: none;
+	}
