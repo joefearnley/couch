@@ -15,8 +15,9 @@
 
 html, body {
 	color: #666;
-	margin-top: 0px;
-	background: #fff; 
+	margin: 0px;
+	padding: 0px;
+	background: #697312; 
 }
 
 body {
@@ -29,11 +30,18 @@ html>body { font-size: 12px; } /* for modern browsers that can resize px */
 
 #wrap {
 	width: 500px;
-	margin: 10px auto; /* auto centers the div */
+	margin: 0px auto; /* auto centers the div */
 	text-align: left;
 	background: #fff;
-	margin-top: 11px; 
+	padding-top: 10px; 
 	padding-bottom: 20px;
+}
+
+#container {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background: #fff; 
 }
 
 #header {
@@ -56,27 +64,24 @@ html>body { font-size: 12px; } /* for modern browsers that can resize px */
 }
 
 
+#twitter-link-holder {
+	text-align: right;
+}
+
 #twitter-link {
 	background: url(images/twitter_icon.png) no-repeat right center;
-	padding: 5px 20px 5px 0px; 
-	text-align: right; 
+	padding: 5px 20px 5px 0px;  
 }
 
 #twitter  {
-	border-top: 2px solid #697312;
-	border-bottom: 2px solid #697312;
 	padding: 10px 10px 10px 10px; 
 	margin: 0px 0px 0px 0px;
 }
 
-#tweets ul {
+ul#tweets  {
 	list-style-type: square;
 }
 
-#toggle_link {
-	float: right;
-	padding-bottom: 5px;
-}
 
 /*	Header image and link	 */
 
@@ -422,7 +427,7 @@ label {
 	margin: 0px;
 	font-size: 13px;
 	line-height: 1.5em;
-	padding-bottom: 10px;
+	padding: 0px 0px 10px 0px;
 	clear: left;
 }
 
@@ -482,7 +487,7 @@ h3.flickr {
 }
 
 h3.writin {
-	background: url(images/wordpress_icon.jpg) no-repeat left center;
+	background: url(images/wordpress.png) no-repeat left center;
 	padding: 5px 0px 5px 25px; 
 	margin: 0px;
 }

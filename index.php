@@ -1,11 +1,8 @@
 <?php get_header(); ?>
 
-<div id="twitter_link"><a href="#" onclick="Effect.toggle('tweets','slide'); return false">twitter updates</a></div>
-
-<div id="tweets" style="display: none;">
-	<div id="twiiter_updates"><ul id="twitter_update_list"></ul></div>
-	<script type="text/javascript" src="http://twitter.com/javascripts/blogger.js"></script>
-	<script type="text/javascript" src="http://twitter.com/statuses/user_timeline/joefearnley.json?callback=twitterCallback2&count=5"></script>
+<div id="twitter">
+<div id="twitter-link-holder"><a href="javascript:void(0);" id="twitter-link">twitter updates</a></div>
+<ul id="tweets"></ul>
 </div>
 
 <?php

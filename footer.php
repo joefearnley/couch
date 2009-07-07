@@ -2,6 +2,8 @@
 
 </div><!-- end of #wrap -->
 
+</div><!-- end of #container -->
+
 <div id="footer">
 
 	<div id="footer-cols">
@@ -12,7 +14,7 @@
 
 		<div class="footer-col">
 			<h3 class="writin"><a href="./archives/">writin'</a></h3>
-			<ul><?php get_archives('postbypost', '4', 'html', '', '', true); ?></ul>
+			<ul><?php get_archives('postbypost', '5', 'html', '', '', true); ?></ul>
 		</div>
 
 		<div class="footer-col"> 
