@@ -24,4 +24,6 @@ Template Name: Template: Archives
 	</div>
 </div>
 
+<br class="clear" />
+
 <?php get_footer(); ?>

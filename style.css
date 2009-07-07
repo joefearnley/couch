@@ -47,7 +47,7 @@ html>body { font-size: 12px; } /* for modern browsers that can resize px */
 #header {
 	margin: 0px 10px 0px 0px;
 	padding: 10px 0px 0px 0px;
-	background: transparent url("couch_new.jpg") no-repeat bottom; 
+	background: transparent url("./images/couch.jpg") no-repeat bottom; 
 }
 
 #menu {	
