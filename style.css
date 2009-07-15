@@ -29,7 +29,7 @@ body {
 html>body { font-size: 12px; } /* for modern browsers that can resize px */
 
 #wrap {
-	width: 500px;
+	width: 530px;
 	margin: 0px auto; /* auto centers the div */
 	text-align: left;
 	background: #fff;
