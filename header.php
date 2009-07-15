@@ -19,7 +19,6 @@
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/couch.js"></script>
-	<script type="text/javascript" src="http://192.168.0.120/wordpress/wp-content/themes/couch/js/couch.js"></script>
 
 
 <?php /* wp_get_archives('type=monthly&format=link'); */ ?>
